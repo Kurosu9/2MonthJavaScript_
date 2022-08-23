@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: blue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 900px;
+    border: 2px solid #ffffff;
+    padding: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header input {
+    width: 60vw;
+    height: 50px;
+    font-size: 30px;
+}
+
+.header button {
+    width: 30%;
+}
+
+.hello {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hello p {
+    color: red;
+    font-size: 60px;
+}
